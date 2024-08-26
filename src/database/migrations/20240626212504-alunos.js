@@ -8,15 +8,15 @@ module.exports = {
         primaryKey: true
       },
       nome: {
-        type: Sequelize.STRING,
+        type: Sequelize.STRING(191),
         allowNull: false,
       },
       sobrenome: {
-        type: Sequelize.STRING,
+        type: Sequelize.STRING(191),
         allowNull: false,
       },
       email: {
-        type: Sequelize.STRING,
+        type: Sequelize.STRING(191),
         allowNull: false,
       },
       idade: {
