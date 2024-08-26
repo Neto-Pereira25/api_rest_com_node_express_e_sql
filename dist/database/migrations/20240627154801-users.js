@@ -8,16 +8,16 @@
         primaryKey: true
       },
       nome: {
-        type: Sequelize.STRING,
+        type: Sequelize.STRING(191),
         allowNull: false,
       },
       email: {
-        type: Sequelize.STRING,
+        type: Sequelize.STRING(191),
         allowNull: false,
         unique: true,
       },
       password_hash: {
-        type: Sequelize.STRING,
+        type: Sequelize.STRING(191),
         allowNull: false,
       },
       created_at: {

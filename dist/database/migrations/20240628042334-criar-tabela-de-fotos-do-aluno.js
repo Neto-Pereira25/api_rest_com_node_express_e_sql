@@ -8,11 +8,11 @@
         primaryKey: true
       },
       originalname: {
-        type: Sequelize.STRING,
+        type: Sequelize.STRING(191),
         allowNull: false,
       },
-      filename:{
-        type: Sequelize.STRING,
+      filename: {
+        type: Sequelize.STRING(191),
         allowNull: false,
       },
       aluno_id: {
