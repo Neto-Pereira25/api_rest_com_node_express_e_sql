@@ -18,6 +18,7 @@ import fotoRoutes from './routes/fotoRoutes';
 const whiteList = [
   'http://localhost:3001',
   'http://localhost:3000',
+  'https://api-rest-escola-jpsn.vercel.app'
 ];
 
 const corsOptions = {
