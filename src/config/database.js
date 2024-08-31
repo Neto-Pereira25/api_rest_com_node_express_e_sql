@@ -1,5 +1,4 @@
 require('dotenv').config();
-import mysql2 from 'mysql2';
 
 module.exports = {
   dialect: 'mysql',
