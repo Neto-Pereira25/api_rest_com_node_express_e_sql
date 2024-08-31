@@ -1,5 +1,4 @@
-"use strict"; function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }require('dotenv').config();
-var _mysql2 = require('mysql2'); var _mysql22 = _interopRequireDefault(_mysql2);
+"use strict";require('dotenv').config();
 
 module.exports = {
   dialect: 'mysql',
