@@ -3,7 +3,7 @@ import mysql2 from 'mysql2';
 
 module.exports = {
   dialect: 'mysql',
-  dialectModule: mysql2,
+  dialectModule: require('mysql2'),
   host: process.env.DATABASE_HOST,
   port: process.env.DATABASE_PORT,
   username: process.env.DATABASE_USERNAME,
